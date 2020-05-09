@@ -12,7 +12,7 @@ Benutze **npm install**, um alle Packages zu installieren
 
 
 # Ändere die config.json
-Gehe zu utils/config.json und ändere die ROLE_ID, die GUILD_ID und den BOT_TOKEN. Wie du die ID herausfindest, findest du [hier](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-server-ID-) und erstellst dir ein Bot [hier](https://discord.com/developers/applications). Wenn du Hilfe brauchst, sende mir eine Freundschaftsanfrage via Discord. (Vincxnt2#1910 oder schreib mir auf meinem [Server](https://discord.io/werbung))
+Gehe zu utils/config.json und ändere die ROLE_ID, die GUILD_ID und den BOT_TOKEN. Wie du die ID herausfindest, findest du [hier](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-server-ID-) und wie du dir ein Bot erstellst [hier](https://discord.com/developers/applications). Wenn du Hilfe brauchst, sende mir eine Freundschaftsanfrage über Discord. (Vincxnt2#1910 oder schreib mir auf meinem [Server](https://discord.io/werbung))
 
     
 | Einstellungen                   | Benutzung                                                                                                                      |
@@ -27,7 +27,7 @@ Gehe zu utils/config.json und ändere die ROLE_ID, die GUILD_ID und den BOT_TOKE
 
 
 # Start Bot
-Benutze **npm run dev**, um die Application mit nodemon zu starten oder **npm run start**, um die App mit node zustarten.
+Benutze **npm run dev**, um die Application mit nodemon zu starten oder **npm run start**, um die Application mit node zustarten.
 
 
 
