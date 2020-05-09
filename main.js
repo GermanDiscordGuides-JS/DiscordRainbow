@@ -6,7 +6,7 @@ const config = require("./utils/config.json");
 let rainbow = true;
 
 if (config.ROLE_COLOR_CHANGE_IN_SECONDS < 6) {
-  console.log("Ratelimited!! Please change the seconds in the config!");
+  console.log("Ratelimited!! Bitte ändere ROLE_COLOR_CHANGE_IN_SECONDS in der Config!!");
   rainbow = false;
 } else {
   client.on("error", err => {
@@ -23,7 +23,7 @@ if (config.ROLE_COLOR_CHANGE_IN_SECONDS < 6) {
       setInterval(() => {
         if (rainbow === true) {
           rainbowRole.setColor("RANDOM");
-          console.log("Role Color change");
+          console.log("Farbe geändert");
         }
       }, config.ROLE_COLOR_CHANGE_IN_SECONDS * 1000);
     }
